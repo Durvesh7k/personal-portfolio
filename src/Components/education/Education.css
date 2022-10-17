@@ -1,0 +1,33 @@
+
+.education__content{
+    display: grid;
+    row-gap: 2rem;
+    justify-content: center;
+
+}
+
+
+.education__details{
+    background: var(--color-bg-variantt);
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    display: flex;
+    gap: 2rem;
+    transition: var(--transition);
+}
+
+.education__details:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant) ;
+    cursor: default;
+}
+
+
+
+.education__content-icon{
+    margin-top: 6px;
+    font-size: 1.5rem;
+
+
+}

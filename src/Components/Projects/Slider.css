@@ -1,0 +1,36 @@
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+    gap: 2rem;
+    padding: 0 3rem;
+    width: 70%;
+
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--color-primary);
+
+}
+
+.github__button{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 600px){
+    .embla__slide{
+        width: 360px;
+        border-radius: 0.5rem;
+    }
+
+    
+}
